@@ -13,7 +13,7 @@
 * yaziが使うソフトウェア
     ```ps1
     # winget install xx yy zz でよいらしい…
-    @("7zip.7zip","Gyan.FFmpeg","jqlang.jq","oschwartz10612.Poppler","sharkdp.fd","BurntSushi.ripgrep.GNU","junegunn.fzf","ajeetdsouza.zoxide","mpv.net","MediaArea.MediaInfo")|%{winget install $_}
+    @("7zip.7zip","Gyan.FFmpeg","jqlang.jq","oschwartz10612.Poppler","sharkdp.fd","BurntSushi.ripgrep.GNU","junegunn.fzf","ajeetdsouza.zoxide","mpv","MediaArea.MediaInfo")|%{winget install $_}
     ```
 
 
