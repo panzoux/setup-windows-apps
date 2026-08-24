@@ -9,7 +9,7 @@ winget install clink
 ## setup
 ```cmd
 clink set history.shared true
-reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /t REG_SZ /d "C:\Program Files (x86)\clink\clink_x64.exe" inject
+reg add "HKCU\Software\Microsoft\Command Processor" /v AutoRun /t REG_SZ /d """C:\Program Files (x86)\clink\clink_x64.exe"" inject
 ```
 
 ## update
